@@ -1,8 +1,8 @@
 <?php
 
   $obj = new main();
-  $text = "Harshit";
-  $text2= "Shah Harshit Mayur";
+  $text = "Ankit";
+  $text2= "Ankit Paresh Shah";
     $obj->str_repeat1($text);
     $obj->str_lower1($text);
     $obj->strtoupper1($text);
@@ -15,8 +15,8 @@
     $obj->substr1($text);
     $obj ->__construct1();
  $array = array(1,2,3,4,5,6,7);
- $array1=array( "banana", "orange","pineapple");
-$games = array("d" => "cricket", "a" => "tennis", "b" => "badminton", "c" => "football");
+ $array1=array( "pumpkin", "watermelon","apple");
+$games = array("d" => "baseball", "a" => "table tennis", "b" => "pool", "c" => "cricket");
   $obj->array_push1($array1);
     $obj->array_pop1($array1);
     $obj->asort1($games);
@@ -141,7 +141,7 @@ $rest = substr($text, -1);
       echo '<h1>Array push function </h1>';
     
 
- array_push($array1, "apple", "raspberry");
+ array_push($array1, "peach", "jackfruit");
 print_r($array1);
             echo '<hr>';
 }
@@ -209,7 +209,7 @@ print_r($games);
       
        public function array_unshift1($array1) {
           echo '<h1>Array UnShift function </h1>';
-    array_unshift($array1, "apple", "raspberry");
+    array_unshift($array1, "peach", "jackfruit");
 print_r($array1);
       echo '<hr>';
 }
